@@ -1,0 +1,6 @@
+---
+- hosts: all
+
+  tasks:
+  - name: Starting Spring-Petclinic Java
+    shell: "nohup java -jar app.jar /var/www/spring-petclinic/target &"
