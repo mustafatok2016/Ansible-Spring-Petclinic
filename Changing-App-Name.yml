@@ -1,0 +1,7 @@
+---
+- hosts: all
+  
+  tasks: 
+
+  - name: Changing Application's Name
+    shell: "mv target/*.jar /var/www/spring-petclinc/target/app.jar &"
