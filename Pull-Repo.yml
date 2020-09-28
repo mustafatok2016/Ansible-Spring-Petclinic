@@ -1,0 +1,9 @@
+---
+- hosts: all
+
+  tasks:
+  - name: Pulling Spring-Petclinic
+    git:
+      repo: "{{ petclinic_repo }}"
+      version: "{{ petclinic_branch }}"
+      dest: /var/www/spring-petclinic/
