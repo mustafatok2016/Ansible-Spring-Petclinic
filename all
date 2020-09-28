@@ -1,3 +1,0 @@
----
-petclinic_repo: "{{ lookup('env', 'PETCLINIC_REPO') }}"
-petclinic_branch: "{{ lookup('env', 'PETCLINIC_BRANCH') }}"
